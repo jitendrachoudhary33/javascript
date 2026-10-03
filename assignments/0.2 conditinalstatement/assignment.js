@@ -1,32 +1,32 @@
 // QUESTION 1
 
-let num = 8;
+var num1 = 8;
 
-if (num % 2 === 0) {
+if (num1 % 2 === 0) {
     console.log("Even");
 }
 
 // QUESTION 2
 
-let temperature = 35;
+var temperature1 = 35;
 
-if (temperature > 30) {
+if (temperature1 > 30) {
     console.log("It's Hot");
 }
 
 // QUESTION 3
 
-let age = 20;
+var age_ = 20;
 
-if (age >= 18) {
+if (age_ >= 18) {
     console.log("Eligible to vote");
 }
 
 // QUESTION 4
 
-let num = -5;
+var num2 = -5;
 
-if (num >= 0) {
+if (num2 >= 0) {
     console.log("Positive");
 } else {
     console.log("Negative");
@@ -34,9 +34,9 @@ if (num >= 0) {
 
 // QUESTION 5
 
-let year = 2024;
+var year1 = 2024;
 
-if (year % 4 === 0) {
+if (year1 % 4 === 0) {
     console.log("Leap Year");
 } else {
     console.log("Not a Leap Year");
@@ -44,9 +44,9 @@ if (year % 4 === 0) {
 
 // QUESTION 6
 
-let ch = "a";
+var ch1 = "a";
 
-if (ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u") {
+if (ch1 === "a" || ch1 === "e" || ch1 === "i" || ch1 === "o" || ch1 === "u") {
     console.log("Vowel");
 } else {
     console.log("Consonant");
@@ -54,9 +54,9 @@ if (ch === "a" || ch === "e" || ch === "i" || ch === "o" || ch === "u") {
 
 // QUESTION 7
 
-let age = 25;
+var age1 = 25;
 
-if (age < 12) {
+if (age1 < 12) {
     console.log("₹100");
 } else if (age < 60) {
     console.log("₹200");
@@ -66,7 +66,7 @@ if (age < 12) {
 
 // QUESTION 8
 
-let temperature = 22;
+var temperature = 22;
 
 if (temperature < 15) {
     console.log("Cold");
@@ -78,9 +78,9 @@ if (temperature < 15) {
 
 // QUESTION 9
 
-let a = 20;
-let b = 35;
-let c = 15;
+var a = 20;
+var b = 35;
+var c = 15;
 
 if (a >= b && a >= c) {
     console.log(a);
@@ -92,7 +92,7 @@ if (a >= b && a >= c) {
 
 // QUESTION 10
 
-let num = 25;
+var num = 25;
 
 if (num > 0) {
     if (num % 5 === 0) {
@@ -104,7 +104,7 @@ if (num > 0) {
 
 // QUESTION 1
 
-let marks = 95;
+var marks = 95;
 
 if (marks >= 35) {
     console.log("Pass");
@@ -118,8 +118,8 @@ if (marks >= 35) {
 
 // QUESTION 2
 
-let isLoggedIn = true;
-let isAdmin = true;
+var isLoggedIn = true;
+var isAdmin = true;
 
 if (isLoggedIn) {
     if (isAdmin) {
@@ -129,7 +129,7 @@ if (isLoggedIn) {
 
 // QUESTION 3
 
-let num = -5;
+var num = -5;
 
 if (num >= 0) {
     console.log("Positive");
@@ -139,7 +139,7 @@ if (num >= 0) {
 
 // QUESTION 4
 
-let marks = 45;
+var marks = 45;
 
 if (marks >= 35) {
     console.log("Passed");
@@ -149,7 +149,7 @@ if (marks >= 35) {
 
 // QUESTION 5
 
-let marks = 45;
+var marks = 45;
 
 if (marks >= 35) {
     console.log("Passed");
@@ -159,17 +159,17 @@ if (marks >= 35) {
 
 // QUESTION 6
 
-let ch = "A";
+var ch = "A";
 
 if (ch >= "A" && ch <= "Z") {
-    console.log("Uppercase Letter");
+    console.log("Uppercase varter");
 } else {
-    console.log("Not an Uppercase Letter");
+    console.log("Not an Uppercase varter");
 }
 
 // QUESTION 7
 
-let num = 12;
+var num = 12;
 if (num % 3 === 0) {
     console.log("Divisible by 3");
 } else {
@@ -178,7 +178,7 @@ if (num % 3 === 0) {
 
 // QUESTION 8
 
-let year = 2024;
+var year = 2024;
 if (year % 4 === 0) {
     console.log("Leap Year");
 } else {
@@ -187,7 +187,7 @@ if (year % 4 === 0) {
 
 // QUESTION 9
 
-let year = 2024;
+var year = 2024;
 if (year % 4 === 0) {
     console.log("Leap Year");
 } else {
@@ -196,7 +196,7 @@ if (year % 4 === 0) {
 
 // QUESTION 10
 
-let num = 0;
+var num = 0;
 if (num >= 0) {
     if (num === 0) {
         console.log("Zero");
@@ -211,7 +211,7 @@ if (num >= 0) {
 
 // QUESTION 1
 
-let month = 4;
+var month = 4;
 if (month === 12 || month === 1 || month === 2) {
     console.log("Winter");
 } else if (month === 3 || month === 4 || month === 5) {
@@ -226,8 +226,8 @@ if (month === 12 || month === 1 || month === 2) {
 
 // QUESTION 2
 
-let income = 800000;
-let tax;
+var income = 800000;
+var tax;
 
 if (income < 300000) {
     tax = 0;
@@ -243,7 +243,7 @@ console.log("Tax =", tax);
 
 // QUESTION 3
 
-let score = 85;
+var score = 85;
 if (score >= 90) {
     console.log("Outstanding");
 } else if (score >= 70) {
@@ -256,7 +256,7 @@ if (score >= 90) {
  
 // QUESTION 4
 
-let score = 85;
+var score = 85;
 
 if (score >= 90) {
     console.log("Outstanding");
@@ -270,7 +270,7 @@ if (score >= 90) {
 
 // QUESTION 5
 
-let height = 175;
+var height = 175;
 
 if (height < 150) {
     console.log("Short");
@@ -282,7 +282,7 @@ if (height < 150) {
 
 // QUESTION 6
 
-let day = 6;
+var day = 6;
 
 if (day >= 1 && day <= 5) {
     console.log("Weekday");
@@ -294,7 +294,7 @@ if (day >= 1 && day <= 5) {
 
 // QUESTION 7
 
-let day = 6;
+var day = 6;
 
 if (day >= 1 && day <= 5) {
     console.log("Weekday");
@@ -306,7 +306,7 @@ if (day >= 1 && day <= 5) {
 
 // QUESTION 8
 
-let attendance = 82;
+var attendance = 82;
 
 if (attendance >= 90) {
     console.log("Excellent");
@@ -320,9 +320,9 @@ if (attendance >= 90) {
 
 // QUESTION 9
 
-let a = 75;
-let b = 90;
-let c = 80;
+var a = 75;
+var b = 90;
+var c = 80;
 
 if (a >= b && a >= c) {
     console.log("Highest =", a);
@@ -334,9 +334,9 @@ if (a >= b && a >= c) {
 
 // QUESTION 10
 
-let a = 75;
-let b = 90;
-let c = 80;
+var a = 75;
+var b = 90;
+var c = 80;
 
 if (a >= b && a >= c) {
     console.log("Highest =", a);
@@ -350,7 +350,7 @@ if (a >= b && a >= c) {
 
 // QUESTION 1
 
-let num = 15;
+var num = 15;
 
 if (num > 10) {
     if (num % 3 === 0) {
@@ -362,7 +362,7 @@ if (num > 10) {
 
 // QUESTION 2
 
-let num = 15;
+var num = 15;
 
 if (num > 10) {
     if (num % 3 === 0) {
@@ -374,8 +374,8 @@ if (num > 10) {
 
 // QUESTION 3
 
-let age = 20;
-let hasVoterID = true;
+var age = 20;
+var hasVoterID = true;
 
 if (age >= 18) {
     if (hasVoterID) {
@@ -385,11 +385,11 @@ if (age >= 18) {
 
 // QUESTION 4
 
-let enteredPin = 1234;
-let correctPin = 1234;
+var enteredPin = 1234;
+var correctPin = 1234;
 
-let balance = 5000;
-let withdrawal = 3000;
+var balance = 5000;
+var withdrawal = 3000;
 
 if (enteredPin === correctPin) {
     if (balance >= withdrawal) {
@@ -405,11 +405,11 @@ if (enteredPin === correctPin) {
 
 // QUESTION 5
 
-let enteredPin = 1234;
-let correctPin = 1234;
+var enteredPin = 1234;
+var correctPin = 1234;
 
-let balance = 5000;
-let withdrawal = 3000;
+var balance = 5000;
+var withdrawal = 3000;
 
 if (enteredPin === correctPin) {
     if (balance >= withdrawal) {
@@ -425,7 +425,7 @@ if (enteredPin === correctPin) {
 
 // QUESTION 6
 
-let email = "student@gmail.com";
+var email = "student@gmail.com";
 
 if (email.includes("@")) {
 
@@ -440,9 +440,9 @@ if (email.includes("@")) {
 
 // QUESTION 7
 
-let cartTotal = 2000;
-let premiumMember = true;
-let finalAmount;
+var cartTotal = 2000;
+var premiumMember = true;
+var finalAmount;
 
 if (cartTotal >= 1000) {
 
@@ -460,7 +460,7 @@ console.log("Final Amount =", finalAmount);
 
 // QUESTION 8
 
-let num = 20;
+var num = 20;
 
 if (num > 0) {
 
@@ -476,7 +476,7 @@ if (num > 0) {
 
 // QUESTION 9
 
-let num = 20;
+var num = 20;
 
 if (num > 0) {
 
@@ -492,9 +492,9 @@ if (num > 0) {
 
 // QUESTION 10
 
-let isPresent = true;
-let internalMarks = 35;
-let externalMarks = 40;
+var isPresent = true;
+var internalMarks = 35;
+var externalMarks = 40;
 
 if (isPresent) {
 
