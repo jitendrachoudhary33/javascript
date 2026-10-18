@@ -242,4 +242,38 @@
 // }
 // console.log(calculateDimention(3))
 
+// //------------------------------------------------------------------------------------------------------------------
+
+// if(true){
+//     var name = "Ankit" ;
+//     console.log(name)
+// }
+// console.log(name)
+
+// //------------------------------------------------------------------------------------------------------------------
+
+// function main (){
+//     function inner(){
+//         return "Hi"
+//     }
+//     console.log(inner())
+//     return "Hello"
+// }
+// let result = main() ;
+// console.log(result)
+
+
+// //------------------------------------------------------------------------------------------------------------------
+
+function processStudent(name,m1,m2,m3){
+    function totalAndAverage(m1,m2,m3){
+        let total = m1+m2+m3;
+        let average = total/3;
+        return [total,average];
+    }
+    let data = totalAndAverage()
+    return data 
+
+} 
+console.log(processStudent(data(21,21,21)))
 
